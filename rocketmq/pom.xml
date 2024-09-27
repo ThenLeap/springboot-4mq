@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.jony</groupId>
+  <artifactId>rocketmq</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>rocketmq</name>
+  <description>rocketmq</description>
+  
+  <parent>
+    <groupId>com.jony</groupId>
+    <artifactId>springboot-mq</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+  </parent>
+  <dependencies>
+    <!-- https://mvnrepository.com/artifact/org.apache.rocketmq/rocketmq-spring-boot-starter -->
+    <dependency>
+      <groupId>org.apache.rocketmq</groupId>
+      <artifactId>rocketmq-spring-boot-starter</artifactId>
+      <version>2.3.1</version>
+    </dependency>
+  
+  
+  </dependencies>
+
+
+</project>
